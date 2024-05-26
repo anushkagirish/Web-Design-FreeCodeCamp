@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>
+          <h1>JS Documentation</h1>
+        </header>
+          <ul>
+            <li>
+              <a class="nav-link" href="#Introduction" accesskey="i">Introduction</a>
+              </li>
+              <li>
+              <a class="nav-link" href="#What_you_should_already_know" accesskey="w">What you should already know</a>
+              </li>
+              <li>
+              <a class="nav-link" href="#JavaScript_and_Java" accesskey="w">JavaScript and Java</a>
+              </li>
+              <li>
+              <a class="nav-link" href="#Hello_world" accesskey="w">Hello world</a>
+              </li>
+              <li>
+              <a class="nav-link" href="#Variables" accesskey="w">Variables</a>
+              </li>
+              
+            </ul>
+        </nav>
+
+      <section class="main-section" id="Introduction">
+        <header><h1>Introduction</h1></header>
+        <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects</p>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header><h1>What you should already know</h1></header>
+        <p>This guide assumes you have the following basic background:</p>
+        <p>
+          <nav>
+            <ul>
+              <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+              <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+              <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+              </ul>
+              </nav>
+        </p>
+      </section>
+      <section class="main-section" id="JavaScript_and_Java">
+        <header><h1>JavaScript and Java</h1></header>
+        <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
+        <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
+      </section>
+      <section class="main-section" id="Hello_world">
+        <header><h1>Hello world</h1></header>
+        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");
+        </code>
+        <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+      </section>
+      <section class="main-section" id="Variables">
+        <header><h1>Variables</h1></header>
+        <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+        <p>You can declare a variable in three ways:</p>
+        <article>
+          <nav>
+            <ol><li>
+        <code>var x = 42.</code>
+          </li>
+          <li>
+            <code>x = 42.</code>
+            </li>
+          <li>
+            <code>let y = 13.</code>
+            </li>
+          <ol>
+          </nav>
+          </article>
+      <h2>Constants</h2>
+      <article>
+        <p>
+          You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.
+        </p>
+        <code>const PI = 3.14;</code>
+      </article>
+      </section>
+
+    </main>
+  </body>
+</html>
+
